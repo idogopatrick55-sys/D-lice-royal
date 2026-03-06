@@ -404,7 +404,6 @@ Commander 🎂
     <button type="button" class="btn-commander">
         Lancer la commande🚀
     </button>
-
 </form>
 	 </div>	
         
@@ -417,7 +416,8 @@ Commander 🎂
 		       <p>Détails sur le gateau</P>
         <textarea id="details" placeholder="Détails du gâteau"></textarea>
 
-        <button onclick="commanderPersonnalise()">Commander personnalisé🚀</button>
+        <button onclick="commanderPersonnalise()">Commander personnalisé🚀</button> 
+		
         <button class="retour" onclick="showSection('gateau')">⬅ Retour</button>
      </div>
 	 <!-- ANNIVERSAIRE -->
@@ -1412,16 +1412,19 @@ Commander 🎂
 	
     <!-- Formulaire personnalisé -->
     <h2>PERSONNALISER VOTRE MODELE🎂</h2>
-
+         <p> Nom  :</P>
     <input type="text" id="nomAnniv" placeholder="Votre nom">
+	      <p> Nom a écrire sur le gateau :</P>
     <input type="text" id="prenomAnniv" placeholder="Nom à écrire sur le gâteau">
+	       <p> Date de naissance :</P>
     <input type="date" id="dateAnniv">
+	       <p> Détails :</P>
     <textarea id="detailsAnniv" placeholder="Couleur, thème, âge..."></textarea>
 
     <button onclick="commanderAnniversaire()">
         Commander personnalisé🚀
     </button>
-
+	
     <button class="retour" onclick="showSection('gateau')">
         ⬅ Retour
     </button>
