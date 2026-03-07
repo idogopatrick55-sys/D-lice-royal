@@ -706,3 +706,21 @@ document.querySelectorAll(".commande-zam").forEach(function(form){
     });
 
 });
+let etoiles = document.querySelectorAll(".etoiles span");
+let noteInput = document.getElementById("note");
+
+etoiles.forEach((etoile, index) => {
+
+etoile.addEventListener("click", () => {
+
+let note = etoile.dataset.value;
+
+noteInput.value = note;
+
+etoiles.forEach((e,i)=>{
+e.classList.toggle("active", i < note);
+});
+
+});
+
+});

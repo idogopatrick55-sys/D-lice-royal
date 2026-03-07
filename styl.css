@@ -564,3 +564,15 @@ img{
 max-width:100%;
 height:auto;
 }
+.etoiles span{
+font-size:35px;
+cursor:pointer;
+color:gray;
+transition:0.3s;
+}
+
+.etoiles span.active{
+opacity:1;
+transform:scale(1.2);
+color:gold;
+}

@@ -2133,23 +2133,28 @@ Commander🍜
    </div>
 </section>
 
-    <h2>Donnez votre avis</h2>
-<div class="rating">
-    <span class="star" data-value="1">★</span>
-    <span class="star" data-value="2">★</span>
-    <span class="star" data-value="3">★</span>
-    <span class="star" data-value="4">★</span>
-    <span class="star" data-value="5">★</span>
-</div>
-<p id="noteText"></p>
-<label>Votre commentaire :</label>
-<textarea  class="boss"
-		 id="avisCommentaire"></textarea>
-        
-<button type="button" onclick="envoyerAvis()">Envoyer avis</button>
+  <h2>Donnez votre avis</h2>
+   <form action="https://formspree.io/f/xbdzljjq" method="POST" class="avisForm">
+  <label>Votre nom :</label>
+<input type="text" name="nom" placeholder="Votre nom" required>
+  <label>Votre commentaire :</label>
+<textarea name="avis" placeholder="Donnez votre avis" required></textarea>
 
-<h3>Commentaires :</h3>
-<div id="listeCommentaires"></div>
+<label>Votre note :</label>
+
+<div class="etoiles">
+  <span data-value="1">★</span>
+  <span data-value="2">★</span>
+  <span data-value="3">★</span>
+  <span data-value="4">★</span>
+  <span data-value="5">★</span>
+</div>
+
+<input type="hidden" name="note" id="note">
+
+<button type="submit">Envoyer</button>
+
+</form>
 	
 <footer>  
     <p>© 2026 Délices Royale</p>
