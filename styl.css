@@ -102,11 +102,18 @@ nav ul li a:hover{
     background:white;
 }
 .hero-text {   
-     background:black;
-	 color:#FFA500;
-	 border-radius: 8px;
+     background:white;
+	 color:black;
+	 border-radius: 350px;
+	font-size:18px;
 }
-
+.hero-fort{
+     text-align: center;
+    font-size: 35px;
+	color: #FFA500;
+	border-radius: 8px;
+	}
+	
 /* SPECIALITES */
 .specialites{
     padding:60px 10%;
@@ -284,15 +291,8 @@ transform: scale(1.05);
     padding: 60px 10px;
 }
 
-.banniere h4 {
-    font-size: 35px;
-	background-color:black;
-	color: #FFA500;
-	display: inline-block;
-	border-radius: 8px;
-}
 
-}
+
 .whatsapp-float {
     position: fixed;
     bottom: 20px;
