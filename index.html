@@ -11,32 +11,32 @@
     <header id="header">
 	<div class="logo">
         <img src="logo.jpeg" alt="Délice Royale" class="imgl">
-        <h1>👑Délice Royal👑</h1>
+        <h1><em>👑Délice Royal👑</em></h1>
     </div>
 	
 	<section class="banniere">
-        <h4>plus proche de vous🚀</h4>
     </section>
 	
     <nav>
-       <div class="hero-text"><h3>🚚Livraison possible.</h3></div>
+       <div class="hero-text"><strong>🚚Livraison possible.</strong></div>
     <ul>
         <li><a href="#accueil">ACCEUIL🏠</a></li>
-        <li><a href="#menu">NOTRE MENU🍕</a></li>
+        <li><a href="#menu">   MENU🍕</a></li>
         <li><a href="#apropos">À PROPOS👤</a></li>
-        <li><a href="#contact">CONTACT DIRECT📞</a></li>
+        <li><a href="#contact">CONTACT📞</a></li>
     </ul>
     </nav>
 </header>
                          <!-- ACCUEIL -->
     <section id="accueil" class="hero">
     <div class="hero-content">
-        <h1>L’Excellence du Goût</h1>
+        <h2>L’Excellence du Goût</h2>
         <p> • 🎂Gâteau Spécial • 🍕Pizzas • 🍜Mets Traditionnels • 🎉Commandes pour Cérémonie • 🚚Service livraison </p>
     </div>
+	
+	   <div class="hero-fort"><h4>plus proche de vous🚀</h4></div>	
     </section>
-     
-	 
+	
 	 <body>
       	  <!-- MENU --> 
     <section id="menu" class="IDG">
@@ -56,7 +56,6 @@
 
       <button onclick="showSection('mariage')">Gâteau de Mariage</button>
        <button onclick="showSection('anniversaire')">Gâteau d'Anniversaire</button>
-        <button class="retour" onclick="retour()">⬅ Retour</button>
     </div>
 	
 	<div id="pizzas" class="menu-section">
@@ -66,7 +65,7 @@
 		<button onclick="showSection('royale')">pizza royale</button>
 		<p><button onclick="showSection('speed')">pizza speed</button>
 		<button onclick="showSection('mini')">mini pizza</button></p>
-        <button class="retour" onclick="retour()">⬅ Retour</button>
+        
     </div>
 	
 	<div id="met" class="menu-section">
@@ -78,13 +77,13 @@
 		 	<button onclick="showSection('Babenda')">Babenda</button> 
 			<button onclick="showSection('Placali')">Placali</button></p>
 			<p><button onclick="showSection('Foutou')">Foutou</button></p>
-        <button class="retour" onclick="retour()">⬅ Retour</button>
+       
     </div>
 	
     <div id="commande" class="menu-section">
         <button onclick="showSection('traiteur')">Service traiteur</button>
         <button onclick="showSection('locaux')">mets locaux</button>
-        <button class="retour" onclick="retour()">⬅ Retour</button>
+       
     </div>
 	
 	  <div id="livraison" class="menu-section">
@@ -97,7 +96,7 @@
    🚚 WhatsApp Livreur
 </a>
 
- <button class="retour" onclick="retour()">⬅ Retour</button>
+ 
 	  </div>
 								   <!-- Mariage -->
 	<div id="mariage" class="menu-section">
@@ -417,8 +416,7 @@ Commander 🎂
         <textarea id="details" placeholder="Détails du gâteau"></textarea>
 
         <button onclick="commanderPersonnalise()">Commander personnalisé🚀</button> 
-		
-        <button class="retour" onclick="showSection('gateau')">⬅ Retour</button>
+	
      </div>
 	 <!-- ANNIVERSAIRE -->
      <div id="anniversaire" class="menu-section">
@@ -1425,9 +1423,7 @@ Commander 🎂
         Commander personnalisé🚀
     </button>
 	
-    <button class="retour" onclick="showSection('gateau')">
-        ⬅ Retour
-    </button>
+    
 </div>
             <!-- PIZZA VIANDE HACHE -->
 
@@ -1476,9 +1472,7 @@ Commander 🍕
 
 </form>
 	</div>  	
-    <button class="retour" onclick="showSection('pizzas')">
-        ⬅ Retour
-    </button>
+    
 </div>
                <!-- pizza 4 saison -->
 <div id="saison" class="menu-section">
@@ -1526,9 +1520,7 @@ Commander 🍕
 
 </form>
 	</div>  
-    <button class="retour" onclick="showSection('pizzas')">
-        ⬅ Retour
-    </button>
+
 </div>
             <!-- Pizza royal -->
 <div id="royale" class="menu-section">
@@ -1575,9 +1567,7 @@ Commander 🍕
 
 </div>
 	
-    <button class="retour" onclick="showSection('pizzas')">
-        ⬅ Retour
-    </button>
+    
 </div>
                      <!-- Pizza speed -->
 <div id="speed" class="menu-section">
@@ -1625,9 +1615,7 @@ Commander 🍕
 
 </form>
 	</div>  
-    <button class="retour" onclick="showSection('pizzas')">
-        ⬅ Retour
-    </button>
+    
 </div>
                 <!-- mini pizza -->
 <div id="mini" class="menu-section">
@@ -1675,9 +1663,7 @@ Commander 🍕
 
 </form>
 	</div>  
-    <button class="retour" onclick="showSection('pizzas')">
-        ⬅ Retour
-    </button>
+    
 </div>
 
              <!-- Service-traiteur -->
@@ -1726,9 +1712,7 @@ Commander 🍕
 
 </form>
 	</div>  
-    <button class="retour" onclick="showSection('commande')">
-        ⬅ Retour
-    </button>
+   
 </div>
 
             <!-- Mets locaux -->
@@ -1758,9 +1742,7 @@ Commander 🍕
 </form>
 	</div>
 	</div>
-    <button class="retour" onclick="showSection('commande')">
-        ⬅ Retour
-    </button>
+    
 </div>
                 <!-- gonré -->
 <div id="gonre" class="menu-section">
@@ -1811,10 +1793,6 @@ Commander 🍕
       </div>
    </div>
    
-<button class="retour" onclick="showSection('met')">
-        ⬅ Retour
-    </button>
-
 </div>
                 <!-- Zamnin -->
 <div id="Zamnin" class="menu-section">
@@ -1844,9 +1822,7 @@ Commander 🍕
 </form>
 
 </div>
-<button class="retour" onclick="showSection('met')">
-        ⬅ Retour
-    </button>
+
 </div>
 
                   <!-- Riz gras-chep -->
@@ -1925,9 +1901,6 @@ Commander 🍕
     </div>
 	</div>
 
-<button class="retour" onclick="showSection('met')">
-        ⬅ Retour
-    </button>
 
 </div>
                       <!-- Babenda -->
@@ -1979,9 +1952,7 @@ Commander🍜
 
 
     </div>
-<button class="retour" onclick="showSection('met')">
-        ⬅ Retour
-    </button>
+
 </div>
                 <!-- Koumvando -->
   <div id="Koumvando" class="menu-section">
@@ -2027,9 +1998,7 @@ Commander🍜
 
 </div>
 </div>
-<button class="retour" onclick="showSection('met')">
-        ⬅ Retour
-    </button>
+
 </div>
                <!-- FOUTOU --> 
 <div id="Foutou" class="menu-section">
@@ -2077,9 +2046,7 @@ Commander 🍜
 
 </form>
 	   </div>
-    <button class="retour" onclick="showSection('met')">
-        ⬅ Retour
-    </button>
+    
    </div>
                <!-- PLACALI --> 
    
@@ -2129,16 +2096,14 @@ Commander🍜
 </form>
 	   
 	   </div>
-    <button class="retour" onclick="showSection('met')">
-        ⬅ Retour
-    </button>
+  
    </div>
 </section>  
 
 <!-- A PROPOS -->
 <section id="apropos" class="specialites">
     <h2>À propos</h2>
-    <p>Délice Royal vous propose des plats de qualités avec un service royal 👑</p>
+    <p>Délice Royal vous proposes des plats de qualités avec un service royal 👑</p>
 	<p>Possibilité de vous faire livrer en toute confiance</p>
 	<p>Chez nous le client est roi🤴</p>
 </section>
